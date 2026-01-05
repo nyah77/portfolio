@@ -1,50 +1,77 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Global fonts */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
     color: #222;
     line-height: 1.6;
 }
 
-/* Global container class */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-/* Navigation */
-nav {
-    background-color: #ffffff;
-    border-bottom: 1px solid #ddd;
-    padding: 1rem;
-}
-
-nav a {
+h1, h2, h3 {
     color: #222;
+    margin-top: 0;
+}
+
+a {
     text-decoration: none;
-    margin-right: 20px;
+    color: #2a5db0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* center the navigation content */
+nav .nav-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+/* nav links */
+nav a {
     font-weight: 500;
+    color: #333;
+    padding: 5px 10px;
 }
 
 nav a:hover {
-    color: #4a7aff;
+    background-color: #efefef;
+    border-radius: 4px;
 }
 
-/* Global headings */
-h1, h2, h3 {
-    font-weight: 600;
-    margin-bottom: 10px;
+/* ————————————————
+   MAIN CONTENT WRAPPER
+——————————————— */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-/* Global image styling */
-img {
-    max-width: 100%;
-    display: block;
+/* ————————————————
+   FOOTER
+——————————————— */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    color: #555;
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
 }

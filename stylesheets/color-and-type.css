@@ -1,0 +1,134 @@
+/* 
+   COLOR & TYPOGRAPHY
+*/
+
+/* Slightly softer background for reading */
+body {
+    background-color: #fcfcfc;
+}
+
+/* Center main content without changing HTML */
+h1,
+h2,
+p,
+dl {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Page title */
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Section headings */
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Intro paragraphs */
+p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Definition list layout */
+dl {
+    margin-top: 30px;
+}
+
+/* Term */
+dt {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #222;
+}
+
+/* Definition */
+dd {
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* Links inside content */
+p a {
+    font-weight: 500;
+}
+
+/* Footer spacing */
+footer {
+    margin-top: 60px;
+}
+/* =========================
+   COLOR & WEB DESIGN PAGE STYLES
+   ========================= */
+
+/* Main content container for spacing and centering */
+h1,
+h2,
+p,
+img {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Page title */
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Section headings */
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs for readability */
+p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+/* Links inside paragraphs */
+p a {
+    color: #2a5db0;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Horizontal rules for separation */
+hr {
+    margin: 40px auto;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Footer spacing */
+footer {
+    margin-top: 60px;
+}
