@@ -131,3 +131,62 @@ hr {
 footer {
     margin-top: 60px;
 }
+
+/* TABLE STYLES */
+
+.color-themes {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.color-themes th, .color-themes td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.color-themes thead {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.color-themes tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+
+.color-swatch {
+  width: 50px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Pastel Theme */
+.pastel-primary { background-color: #FFB6C1; }
+.pastel-secondary { background-color: #B0E0E6; }
+.pastel-accent { background-color: #FFFACD; }
+
+/* Royal Purples */
+.royal-primary { background-color: #6A0DAD; }
+.royal-secondary { background-color: #9370DB; }
+.royal-accent { background-color: #D8BFD8; }
+
+/* Warm Contrast */
+.warm-primary { background-color: #FF6F61; }
+.warm-secondary { background-color: #FFD166; }
+.warm-accent { background-color: #E76F51; }
+
+/* Fresh Flower */
+.fresh-primary { background-color: #FFB7C5; }
+.fresh-secondary { background-color: #C1E1C1; }
+.fresh-accent { background-color: #FDE2E2; }
+
+/* Cool Balance */
+.cool-primary { background-color: #0077B6; }
+.cool-secondary { background-color: #00B4D8; }
+.cool-accent { background-color: #90E0EF; }
