@@ -7,27 +7,6 @@
 <link rel="stylesheet" href="../stylesheets/showcase.css">
 <title>Nyah's Portfolio</title>
 </head>
-<script>
-  function setTheme(mode) {
-    if (mode === 'dark') {
-      document.body.classList.add('dark');
-    } else {
-      document.body.classList.remove('dark');
-    }
-  }
-
-  function setFontSize(size) {
-    const sizes = {
-      small: '14px',
-      medium: '16px',
-      large: '18px'
-    };
-    document.documentElement.style.setProperty(
-      '--base-font-size',
-      sizes[size]
-    );
-  }
-</script>
 <body>
 <nav class="main-nav">
   <ul>
@@ -96,5 +75,26 @@ techniques to show both my technical skills and creative decision-making.</p>
 <footer> 
 <p>&copy; 2025 Nyah's Portfolio. All rights reserved.</p>
 </footer>
+<script>
+  function setTheme(mode) {
+    if (mode === 'dark') {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+  }
+
+  function setFontSize(size) {
+    const sizes = {
+      small: '14px',
+      medium: '16px',
+      large: '18px'
+    };
+    document.documentElement.style.setProperty(
+      '--base-font-size',
+      sizes[size]
+    );
+  }
+</script>
 </body>
 </html>
