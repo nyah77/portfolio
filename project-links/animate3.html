@@ -3,40 +3,40 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="../stylesheets/sitewide.css">
 <link rel="stylesheet" href="../stylesheets/showcase.css">
+
 <title>Nyah's Portfolio</title>
 </head>
 <body>
+
 <nav class="main-nav">
   <ul>
     <li><a href="../index.html">Home</a></li>
-
     <li><a href="../resume.html">Resume</a></li>
 
-    <!-- Showcase Dropdown -->
     <li class="dropdown">
       <a href="#">Showcase ▾</a>
       <ul class="dropdown-menu">
         <li><a href="../project-links/animate1.html">Animate Project 1</a></li>
         <li><a href="../project-links/animate2.html">Animate Project 2</a></li>
-        <li><a href="project-links/animate3.html">Animate Project 3</a></li>
+        <li><a href="../project-links/animate3.html">Animate Project 3</a></li>
         <li><a href="../project-links/photo1.html">Photoshop Project 1</a></li>
         <li><a href="../project-links/photo2.html">Photoshop Project 2</a></li>
         <li><a href="../project-links/photo3.html">Photoshop Project 3</a></li>
       </ul>
     </li>
 
-    <!-- Color & Typography Dropdown -->
     <li class="dropdown">
       <a href="#">Color & Type ▾</a>
       <ul class="dropdown-menu">
         <li><a href="../Color-theory/color.html">Color Theory</a></li>
-        <li><a href="../typography.html">Typography</a></li>
+        <li><a href="../type/typography.html">Typography</a></li>
       </ul>
     </li>
 
-    <!-- Theme Dropdown -->
     <li class="dropdown">
       <a href="#">Theme ▾</a>
       <ul class="dropdown-menu">
@@ -52,35 +52,61 @@
     </li>
   </ul>
 </nav>
-    <h1>Animate project 3</h1>
-<video width="320" height="240" controls>
-  <source src="../projects/AN project 3.mp4" type="video/mp4">
-</video>
-<h2>Project Summary</h2>
-<p>The purpose of this project was to create a digital advertisement for a skincare 
-  brand using Adobe Animate. The goal was to design an engaging and visually appealing 
-  animation that effectively communicates the brand’s values while promoting its products. 
-  This project focused on combining graphic design elements, motion, and timing to capture 
-  the viewer’s attention and deliver a clear message. By using animation, the ad aimed to 
-  highlight the eco-friendly and modern qualities of the brand.
-</p>
-<h2>Explanation of tools and skills</h2>
-<p>For this project, I started by importing the background, the woman’s face, and the 
-  wind vector into separate layers on the stage so I could animate each one individually. 
-  I created motion tweens for the wind, which made it look like a gust blowing the woman away. 
-  To add more detail, I imported a dust image and set the blend mode to darken so parts of 
-  the dust would be transparent and look more natural in the scene. I also added a glow around 
-  the product to make it stand out and gave the product a motion tween so it slid into the stage 
-  when it appeared. To bring more impact to that moment, I added a sound effect that plays as the 
-  product and glow show up, and I layered in background music to tie the whole animation together. 
-  By combining layers, motion tweens, blend modes, effects, and audio, I was able to create a more 
-  dynamic and engaging ad.
-</p>
-<br>
-    <hr>
-    <footer> 
-    <p>&copy; 2025 Nyah's Portfolio. All rights reserved.</p>
-    </footer>
+
+<main class="container my-5">
+
+  <div class="text-center mb-4">
+    <h1 class="mb-0">Animate Project 3</h1>
+  </div>
+
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body text-center">
+      <video class="img-fluid rounded" controls>
+        <source src="../projects/AN project 3.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <h2 class="h5 card-title">Project Summary</h2>
+      <p>
+        The purpose of this project was to create a digital advertisement for a skincare
+        brand using Adobe Animate. The goal was to design an engaging and visually appealing
+        animation that effectively communicates the brand’s values while promoting its products.
+        This project focused on combining graphic design elements, motion, and timing to capture
+        the viewer’s attention and deliver a clear message. By using animation, the ad aimed to
+        highlight the eco-friendly and modern qualities of the brand.
+      </p>
+    </div>
+  </div>
+
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <h2 class="h5 card-title">Explanation of Tools and Skills</h2>
+      <p>
+        For this project, I started by importing the background, the woman’s face, and the
+        wind vector into separate layers on the stage so I could animate each one individually.
+        I created motion tweens for the wind, which made it look like a gust blowing the woman away.
+        To add more detail, I imported a dust image and set the blend mode to darken so parts of
+        the dust would be transparent and look more natural in the scene. I also added a glow around
+        the product to make it stand out and gave the product a motion tween so it slid into the stage
+        when it appeared. To bring more impact to that moment, I added a sound effect that plays as the
+        product and glow show up, and I layered in background music to tie the whole animation together.
+        By combining layers, motion tweens, blend modes, effects, and audio, I was able to create a more
+        dynamic and engaging ad.
+      </p>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-center py-4 border-top">
+  <p>&copy; 2025 Nyah's Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
   function setTheme(mode) {
     if (mode === 'dark') {
@@ -102,5 +128,6 @@
     );
   }
 </script>
+
 </body>
 </html>

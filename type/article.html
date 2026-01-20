@@ -3,18 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="../stylesheets/sitewide.css">
 <link rel="stylesheet" href="../stylesheets/color-and-type.css">
+
 <title>Typography</title>
 </head>
 <body>
- <nav class="main-nav">
+
+<nav class="main-nav mb-4">
   <ul>
     <li><a href="../index.html">Home</a></li>
-
     <li><a href="../resume.html">Resume</a></li>
-
-    <!-- Showcase Dropdown -->
     <li class="dropdown">
       <a href="#">Showcase ▾</a>
       <ul class="dropdown-menu">
@@ -26,8 +27,6 @@
         <li><a href="../project-links/photo3.html">Photoshop Project 3</a></li>
       </ul>
     </li>
-
-    <!-- Color & Typography Dropdown -->
     <li class="dropdown">
       <a href="#">Color & Type ▾</a>
       <ul class="dropdown-menu">
@@ -35,15 +34,12 @@
         <li><a href="typography.html">Typography</a></li>
       </ul>
     </li>
-
-    <!-- Theme Dropdown -->
     <li class="dropdown">
       <a href="#">Theme ▾</a>
       <ul class="dropdown-menu">
         <li class="menu-label">Mode</li>
         <li><button onclick="setTheme('light')">Light</button></li>
         <li><button onclick="setTheme('dark')">Dark</button></li>
-
         <li class="menu-label">Font Size</li>
         <li><button onclick="setFontSize('small')">Small</button></li>
         <li><button onclick="setFontSize('medium')">Medium</button></li>
@@ -52,50 +48,47 @@
     </li>
   </ul>
 </nav>
-    <h1>Typography Comparison: Apple vs. Amazon</h1>
-    <p>Typography plays a major role in how websites communicate with their audiences. 
-    The choice of font, spacing, and layout can completely change the tone of a page. 
-    In this article, I compare the use of typography on the <a href="https://www.apple.com" target="_blank">Apple</a> 
-    and <a href="https://www.amazon.com" target="_blank">Amazon</a> websites, focusing on how each brand’s design 
-    supports its identity and user experience.</p>
 
-  <h2>Apple</h2>
-  <img src="../images/apple.jpg" alt="Screenshot of Apple website homepage" width="600">
-  <p>Apple’s typography is sleek, minimal, and consistent across all pages. The company uses its own custom typeface, 
-  <strong>San Francisco</strong>, which is clean and modern. The large headings, generous spacing, and simple color palette 
-  give the site a refined, elegant look. Every element feels intentional and balanced, which aligns with Apple’s overall 
-  brand image of innovation and simplicity.</p>
+<main class="container my-5">
 
-  <p>Because Apple’s design relies heavily on white space and subtle contrasts, the typography feels calm and easy to read. 
-  The result is a visual experience that feels high-end and professional, reinforcing the luxury and precision of Apple products.</p>
-  <p><a href="https://www.apple.com" target="_blank">Visit Apple</a></p>
+  <div class="text-center mb-4">
+    <h1 class="mb-3">Typography Comparison: Apple vs. Amazon</h1>
+    <p>Typography plays a major role in how websites communicate with their audiences. The choice of font, spacing, and layout can completely change the tone of a page. In this article, I compare the use of typography on <a href="https://www.apple.com" target="_blank">Apple</a> and <a href="https://www.amazon.com" target="_blank">Amazon</a>, focusing on how each brand’s design supports its identity and user experience.</p>
+  </div>
 
-  <h2>Amazon</h2>
-  <img src="../images/amazon.jpg" alt="Screenshot of Amazon website homepage" width="600">
-  <p>Amazon’s typography, on the other hand, is more practical and information-heavy. The site primarily uses 
-  <strong>Amazon Ember</strong> and <strong>Arial</strong> for readability and efficiency. Fonts are smaller and tighter, 
-  allowing more text to fit on each page. This approach prioritizes function over aesthetics, reflecting Amazon’s focus 
-  on usability and quick access to products.</p>
+  <div class="card mb-4 shadow-sm p-3">
+    <h2 class="h5">Apple</h2>
+    <div class="text-center my-3">
+      <p><a href="https://www.apple.com" target="_blank">Visit Apple</a></p>
+      <img src="../images/apple.jpg" class="img-fluid rounded border border-2 shadow-sm" alt="Screenshot of Apple website homepage">
+    </div>
+    <p>Apple’s typography is sleek, minimal, and consistent across all pages. The company uses its own custom typeface, <strong>San Francisco</strong>, which is clean and modern. The large headings, generous spacing, and simple color palette give the site a refined, elegant look. Every element feels intentional and balanced, which aligns with Apple’s overall brand image of innovation and simplicity.</p>
+    <p>Because Apple’s design relies heavily on white space and subtle contrasts, the typography feels calm and easy to read. The result is a visual experience that feels high-end and professional, reinforcing the luxury and precision of Apple products.</p>
+  </div>
 
-  <p>The dense layout, combined with bold headings and contrasting colors, helps users scan through large amounts of 
-    information quickly. While it may not look as elegant as Apple’s site, it’s highly effective for an e-commerce 
-    platform that handles thousands of listings and user interactions daily.</p>
-  <p><a href="https://www.amazon.com" target="_blank">Visit Amazon</a></p>
+  <div class="card mb-4 shadow-sm p-3">
+    <h2 class="h5">Amazon</h2>
+    <div class="text-center my-3">
+      <p><a href="https://www.amazon.com" target="_blank">Visit Amazon</a></p>
+      <img src="../images/amazon.jpg" class="img-fluid rounded border border-2 shadow-sm" alt="Screenshot of Amazon website homepage">
+    </div>
+    <p>Amazon’s typography, on the other hand, is more practical and information-heavy. The site primarily uses <strong>Amazon Ember</strong> and <strong>Arial</strong> for readability and efficiency. Fonts are smaller and tighter, allowing more text to fit on each page. This approach prioritizes function over aesthetics, reflecting Amazon’s focus on usability and quick access to products.</p>
+    <p>The dense layout, combined with bold headings and contrasting colors, helps users scan through large amounts of information quickly. While it may not look as elegant as Apple’s site, it’s highly effective for an e-commerce platform that handles thousands of listings and user interactions daily.</p>
+  </div>
 
-  <h2>Comparison</h2>
-  <p>Both Apple and Amazon use typography to serve their unique goals. Apple’s design highlights beauty and clarity, 
-  encouraging users to slow down and admire the visuals. Amazon’s design emphasizes efficiency and readability, 
-  helping users navigate and make quick decisions. In other words, Apple’s typography communicates <em>experience</em>, 
-  while Amazon’s communicates <em>function</em>.</p>
-  
-  <p>Typography isn’t just about choosing a font — it’s about how text supports the purpose of a site. 
-  Apple and Amazon show two successful but opposite ways to use typography to strengthen a brand’s identity 
-  and user experience.</p>
-<br>
-    <hr>
-    <footer> 
-    <p>&copy; 2025 Nyah's Portfolio. All rights reserved.</p>
-    </footer>
+  <div class="card mb-4 shadow-sm p-3">
+    <h2 class="h5">Comparison</h2>
+    <p>Both Apple and Amazon use typography to serve their unique goals. Apple’s design highlights beauty and clarity, encouraging users to slow down and admire the visuals. Amazon’s design emphasizes efficiency and readability, helping users navigate and make quick decisions. In other words, Apple’s typography communicates <em>experience</em>, while Amazon’s communicates <em>function</em>.</p>
+    <p>Typography isn’t just about choosing a font, it’s about how text supports the purpose of a site. Apple and Amazon show two successful but opposite ways to use typography to strengthen a brand’s identity and user experience.</p>
+  </div>
+
+</main>
+
+<footer class="text-center py-4 border-top">
+  <p>&copy; 2025 Nyah's Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
   function setTheme(mode) {
     if (mode === 'dark') {
@@ -117,5 +110,6 @@
     );
   }
 </script>
+
 </body>
 </html>
